@@ -24,4 +24,8 @@ package com.caldremch.opengl.jni
 
     external fun stringFromJNI(): String
 
+    external fun setup()
+
+    external fun resize(width:Int, height:Int)
+
 }
